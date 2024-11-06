@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: linear-gradient(to bottom, #86DB1A, #FFD700);
+    background-color: #86DB1A;
+    display: flex;
+    align-items: start;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 20px;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    display: block;
+    margin-top: 60px;
+    margin-left: 2%;
+    /* Здесь задайте нужный вам отступ сверху */
+    padding: 15px 20px;
+    background-color: #BDFF00;
+    /* Здесь задайте нужный вам цвет фона */
+    color: black;
+    /* Здесь задайте нужный вам цвет текста */
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #fedcba;
+    /* Здесь задайте нужный вам цвет фона при наведении */
+}
+
+.user-container {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.greeting {
+    position: relative;
+    top: 0;
+    left: 20%;
+    color: black;
+}
+
+.user-link {
+    position: relative;
+    left: 22%;
+    /* Добавьте отступ слева, если необходимо */
+}
+
+table {
+    margin-left: 1%;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th,
+td {
+    border: 1px solid #e1e1e1;
+    padding: 1px;
+    text-align: center;
+}
+
+th {
+    background-color: #00B386;
+}
+
+td {
+    background-color: #86DB1A;
+}
+
+td:empty {
+    background-color: #BDFF00;
+}
+
+.content {
+    background-color: #FFD700;
+}
+
+body {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-left: 45%;
+    color: #00B386;
+}
+
+h2 {
+    margin-left: 44%;
+}
+
+.kent {
+    margin-left: 40%;
+    color: black;
+}
+
+.reg {
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="tel"],
+input[type="password"],
+input[type="confirm"],
+input[type="age"],
+textarea {
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="phone"]:focus,
+textarea:focus {
+    outline: none;
+}
+
+button[type="submit"] {
+    margin-left: 44%;
+    background-color: #86DB1A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #00B386;
+}
+
+.but {
+    position: relative;
+    left: 2.5%;
+}
+
+.butt {
+    position: relative;
+    right: 1%;
+}
+
+.qaz {
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    float: left;
+    width: 60%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.img {
+    float: right;
+    width: 40%;
+    margin-right: 3%;
+    width: 400px;
+    height: 400px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.i {
+    width: 700px;
+    /* Ширина фотографии */
+}
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Прозрачный фон блока с текстом */
+    color: white;
+    padding: 5px;
+}
+
+.a1 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+section {
+
+    padding: 20px;
+
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.section-item {
+    position: relative;
+    text-shadow: 10px 10px 25px rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+
+.rev {
+    color: black;
+    width: 50%;
+    margin: auto;
+}
+
+.section-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.section-item p {
+    text-align: center;
+}
+
+.section-item form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-item button {
+    margin-right: 40%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.section-item button:hover {
+    background-color: #fedcba;
+    color: black;
+}
+
+.qwert {
+    text-align: justify;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #FFD700, #86DB1A);
+    background-color: #86DB1A;
+    color: black;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer-p {
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+main {
+    min-height: calc(100vh - 220px - 100px);
+}
+
+textarea {
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.biba {
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.edit {
+    background-color: #4CAF50;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 40%;
+}
